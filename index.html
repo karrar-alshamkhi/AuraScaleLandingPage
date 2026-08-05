@@ -38,14 +38,15 @@
                     <a href="Pricing/" class="btn btn-secondary">See Pricing</a>
                 </div>
 
-                <div class="hero-preview" aria-label="Aura Scale before and after preview">
-                    <div class="preview-card">
-                        <span>Before</span>
-                        <div class="preview-box preview-box--soft"></div>
-                    </div>
-                    <div class="preview-card preview-card--accent">
-                        <span>After</span>
-                        <div class="preview-box preview-box--sharp"></div>
+                <!-- السلايدر التفاعلي الجديد -->
+                <div class="img-compare" style="--position: 50%;">
+                    <img src="wwwroot/images/after.jpg" class="img-compare__after" alt="After AI Enhancement" />
+                    <img src="wwwroot/images/before.jpg" class="img-compare__before" alt="Before AI Enhancement" />
+                    <span class="img-compare__label img-compare__label--before">Before</span>
+                    <span class="img-compare__label img-compare__label--after">After</span>
+                    <input type="range" min="0" max="100" value="50" class="img-compare__slider" aria-label="Image comparison slider" />
+                    <div class="img-compare__line">
+                        <div class="img-compare__handle"></div>
                     </div>
                 </div>
             </div>
