@@ -3,8 +3,27 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aura Scale — AI Image Enhancement</title>
-    <meta name="description" content="Aura Scale is an AI-powered image enhancement app for upscaling, sharpening, and restoring visuals with a fast desktop workflow." />
+    
+    <!-- Title & SEO Meta Tags -->
+    <title>Aura Scale — AI Image Upscaler & Photo Enhancer for Windows</title>
+    <meta name="description" content="Aura Scale is an AI-powered desktop image enhancement software for upscaling up to 4x, sharpening, denoising, and restoring photos offline on Windows." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://aurascale.com/" />
+
+    <!-- Open Graph (Facebook, Discord, LinkedIn) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://aurascale.com/" />
+    <meta property="og:title" content="Aura Scale — AI Image Upscaler & Photo Enhancer" />
+    <meta property="og:description" content="Upscale, denoise, and restore images locally on your desktop with AI. Try free for 10 days." />
+    <meta property="og:image" content="https://aurascale.com/wwwroot/images/og-preview.jpg" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Aura Scale — AI Image Upscaler & Photo Enhancer" />
+    <meta name="twitter:description" content="Upscale, denoise, and restore images locally on your desktop with AI. Try free for 10 days." />
+    <meta name="twitter:image" content="https://aurascale.com/wwwroot/images/og-preview.jpg" />
+
+    <!-- Favicon & Styles -->
     <link rel="icon" href="wwwroot/favicon.ico" />
     <link rel="stylesheet" href="wwwroot/css/site.css" />
 
@@ -16,6 +35,29 @@
       gtag('js', new Date());
 
       gtag('config', 'G-1RCC1Y6H6X');
+    </script>
+
+    <!-- Software Schema Markup (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Aura Scale",
+      "operatingSystem": "Windows 10, Windows 11",
+      "applicationCategory": "MultimediaApplication",
+      "description": "Desktop AI software for image upscaling, noise reduction, and photo restoration.",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "0",
+        "category": "Free Trial"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "24"
+      }
+    }
     </script>
 </head>
 <body>
@@ -48,10 +90,10 @@
                     <a href="pricing/" class="btn btn-secondary">See Pricing</a>
                 </div>
 
-                <!-- السلايدر التفاعلي -->
+                <!-- Interactive Image Comparison Slider -->
                 <div class="img-compare" style="--position: 50%;">
-                    <img src="wwwroot/images/after.jpg" class="img-compare__after" alt="After AI Enhancement" />
-                    <img src="wwwroot/images/before.jpg" class="img-compare__before" alt="Before AI Enhancement" />
+                    <img src="wwwroot/images/after.jpg" class="img-compare__after" alt="Aura Scale enhanced image result after AI upscaling" width="800" height="500" fetchpriority="high" />
+                    <img src="wwwroot/images/before.jpg" class="img-compare__before" alt="Original low resolution image before AI upscaling" width="800" height="500" fetchpriority="high" />
                     <span class="img-compare__label img-compare__label--before">Before</span>
                     <span class="img-compare__label img-compare__label--after">After</span>
                     <input type="range" min="0" max="100" value="50" class="img-compare__slider" aria-label="Image comparison slider" />
