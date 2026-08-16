@@ -3,8 +3,27 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pricing — Aura Scale</title>
-    <meta name="description" content="Aura Scale is an AI-powered image enhancement app for upscaling, sharpening, and restoring visuals with a fast desktop workflow." />
+    
+    <!-- Title & SEO Meta Tags -->
+    <title>Pricing & Plans — Aura Scale AI Image Enhancer</title>
+    <meta name="description" content="Simple, transparent pricing for Aura Scale. Try free for 10 days, or get the full annual license for $39/year with full offline AI upscaling and all updates." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://aurascale.uk/pricing/" />
+
+    <!-- Open Graph (Social Sharing) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://aurascale.uk/pricing/" />
+    <meta property="og:title" content="Aura Scale Pricing — Simple Annual License & Free Trial" />
+    <meta property="og:description" content="Start your 10-day free trial or get unlimited AI image upscaling with an annual subscription for $39/year." />
+    <meta property="og:image" content="../wwwroot/images/og-preview.jpg" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Aura Scale Pricing — Simple Annual License & Free Trial" />
+    <meta name="twitter:description" content="Start your 10-day free trial or get unlimited AI image upscaling with an annual subscription for $39/year." />
+    <meta name="twitter:image" content="../wwwroot/images/og-preview.jpg" />
+
+    <!-- Favicon & Styles -->
     <link rel="icon" href="../wwwroot/favicon.ico" />
     <link rel="stylesheet" href="../wwwroot/css/site.css" />
 
@@ -16,6 +35,61 @@
       gtag('js', new Date());
 
       gtag('config', 'G-1RCC1Y6H6X');
+    </script>
+
+    <!-- Structured Data (Product Offer & FAQ Schema) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "SoftwareApplication",
+          "name": "Aura Scale - Annual License",
+          "operatingSystem": "Windows 10, Windows 11",
+          "applicationCategory": "MultimediaApplication",
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "10-Day Free Trial",
+              "price": "0",
+              "priceCurrency": "USD",
+              "availability": "https://schema.org/InStock",
+              "url": "https://aurascale.uk/download/"
+            },
+            {
+              "@type": "Offer",
+              "name": "Annual Subscription",
+              "price": "39.00",
+              "priceCurrency": "USD",
+              "priceValidUntil": "2027-12-31",
+              "availability": "https://schema.org/InStock",
+              "url": "https://aurascale.uk/buy/"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "How does the purchase process work?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "After your payment is completed securely, you will receive a confirmation email containing your personal license key to activate the full version instantly."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What happens when my trial expires?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The app will require a license key to continue. Visit the FAQ page to learn how to activate after purchase."
+              }
+            }
+          ]
+        }
+      ]
+    }
     </script>
 </head>
 <body>
@@ -32,6 +106,7 @@
         </nav>
     </div>
 </header>
+
 <main role="main">
 <div class="page-header">
     <div class="container">
@@ -40,6 +115,7 @@
         <p>Start free for 10 days. Subscribe annually to unlock full access across all updates.</p>
     </div>
 </div>
+
 <section class="section section-dark">
     <div class="container">
         <div class="pricing-grid">
@@ -97,6 +173,7 @@
     </div>
 </section>
 </main>
+
 <footer class="site-footer">
     <div class="container site-footer__inner">
         <div class="site-footer__brand">
@@ -113,8 +190,11 @@
             <a href="../legal/refund.html">Refund Policy</a>
         </nav>
     </div>
-    <div class="container site-footer__bottom"><p>&copy; 2026 Aura Scale (AL-SHAMKHI TECH LTD). All rights reserved.</p></div>
+    <div class="container site-footer__bottom">
+        <p>&copy; 2026 Aura Scale (AL-SHAMKHI TECH LTD). All rights reserved.</p>
+    </div>
 </footer>
+
 <script src="../wwwroot/js/site.js"></script>
 </body>
 </html>
